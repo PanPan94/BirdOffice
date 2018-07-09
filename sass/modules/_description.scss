@@ -1,0 +1,14 @@
+.description {
+    color: #1b2733;
+
+    &__title {
+        line-height: 20px;
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    &__content {
+        line-height: 22px;
+        font-weight: 300;
+    }
+}

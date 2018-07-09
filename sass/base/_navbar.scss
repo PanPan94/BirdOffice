@@ -1,0 +1,22 @@
+$navbar-light-color : #000;
+$navbar-light-hover-color : #000;
+
+.navbar {
+    padding: 27px 24px;
+    border-bottom: solid #d8d8d8 1px;
+}
+.navbar-light {
+    .navbar-nav {
+        .nav-link {
+            color : $navbar-light-color;
+            font-family: "Roboto";
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 18px;
+            
+            &:hover {
+                color: $navbar-light-hover-color;
+            }
+        }
+    }
+}

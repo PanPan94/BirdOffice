@@ -1,0 +1,28 @@
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card-item {
+    border: solid 1px #c1c7cd;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    width: 255px;
+    margin: 5px;
+
+    p {
+        margin: 15px;
+    }
+
+    &--simple {
+        display: flex;
+        align-items: center;
+        width: 255px;
+        margin: 5px;
+        border-bottom: solid 1px #c1c7cd;
+        p {
+            margin: 15px;
+        }
+    }
+}
