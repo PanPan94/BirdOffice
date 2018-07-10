@@ -20,7 +20,7 @@ I'm using the Scalable and Modular Architecture for CSS with the Sass pre-proces
 - You can get all the base files in the base folder (sass/base). => Bootstrap is ihere
 - The layout is defined in the layout folder (sass/layout)
 - Modules are defined in the modules folder (sass/modules)
-- Theme and state aren't user for this project.
+- Theme and state aren't used in this project.
 
 For theming Bootstrap I override every styles I'm using in Sass' files.
 
